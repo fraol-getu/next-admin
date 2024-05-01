@@ -1,0 +1,41 @@
+{
+  "name": "next-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/list": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/x-data-grid": "^7.3.1",
+    "@nivo/bar": "^0.86.0",
+    "@nivo/core": "^0.86.0",
+    "@nivo/geo": "^0.86.0",
+    "@nivo/line": "^0.86.0",
+    "@nivo/pie": "^0.86.0",
+    "formik": "^2.4.6",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-pro-sidebar": "^1.1.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

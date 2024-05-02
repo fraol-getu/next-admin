@@ -9,11 +9,11 @@ import {CssBaseline, ThemeProvider} from "@mui/material"
 
 export default function Home() {
   
-  const [theme, colorMode,]: any = useMode()
+  const [theme, colorMode] = useMode()
   return (
     
      <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={""}>
         <CssBaseline/>
         <div className="app">
           <main className="content">

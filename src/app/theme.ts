@@ -224,7 +224,7 @@ export  const ColorModeContext = createContext <ColorContextValue>({
   toggleColorMode:  () => {},
 })
 export const useMode = () => {
-  const [mode, setMode] = useState("dark")
+  const [mode, setMode] = useState<'dark' | 'light'>("dark")
  
   const colorMode = useMemo(
     () => ({
